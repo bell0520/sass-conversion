@@ -1,0 +1,17 @@
+@mixin col3width() {
+    float:left;
+    width: 30%;
+    margin-left: 5%;
+    &:first-child{
+        margin-left: 0;
+    }
+}
+
+@mixin col4width() {
+    width:22%;
+    margin-left: 4%;
+    float:left;
+    &:first-child{
+        margin-left: 0;
+    }
+}
